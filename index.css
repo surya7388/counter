@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    padding: 20px;
+    border: solid#959595;
+    border-radius: 10px;
+}
+.card-body{
+text-align: center;
+}
+#decrement{
+    outline: none;
+    border: none;
+    background-color:#953595 ;
+    padding:5px ;
+    border-radius: 5px;
+}
+#reset{
+    outline: none;
+    border: none;
+    background-color:#956595 ;
+    padding:5px ;
+    border-radius: 5px;  
+}
+#increment{
+    outline: none;
+    border: none;
+    background-color:#956578 ;
+    padding:5px ;
+    border-radius: 5px; 
+}
